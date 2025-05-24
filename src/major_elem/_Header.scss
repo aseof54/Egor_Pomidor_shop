@@ -1,21 +1,26 @@
 .header{
-    background-color: #862805;
+    background-color: #D62828;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 0 10px;
     height: 130px;
+    z-index: 10;
+    position: relative;
     img{
         max-width: 100px;
         max-height: 100x;
         margin-right: 160px;
     }
     .menu{
+        gap: 30px;
+        display: flex;
         Button{
             font-size: 30px;
             font-family: "Montserrat", sans-serif;
             font-weight: 700;
+            border-radius: 20px;
         }
     }
 }

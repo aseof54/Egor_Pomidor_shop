@@ -1,0 +1,28 @@
+.item{
+    width: 310px;
+    height: 539px;
+    display: flex;
+    flex-direction: column;
+    .img{
+        width: 310px;
+        height: 356px;
+        margin: 24px 0;
+    }
+    .texts{
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        font-size: 16px;
+        color: #333333;
+        .Maintext{
+
+        }
+        .Desc{
+
+        }
+        .Price{
+            color: #707070;
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+.Catalog{
+    position: relative;
+    z-index: 1;
+    background-color: #F8F1F1;
+    margin-top: 160px;
+
+    .arrivals{
+        width: 1405px;
+        height: 764px;
+        padding: 160px 257px;
+        display: flex;
+        flex-direction: column;
+        .Up-text{
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 150%;
+            text-transform: uppercase;
+            display: flex;
+            align-self: center;
+        }
+        .cards{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 160px;
+        }
+        .button{
+            width: fit-content;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+    }
+}

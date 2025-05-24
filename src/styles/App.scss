@@ -1,11 +1,13 @@
 @import "Base";
 @import "../major_elem/Header";
 @import "../major_elem/Explore";
+@import "../major_elem/Catalog";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "../minor_elem/ItemCard";
 
 .App, body{
     font-family: "Montserrat", sans-serif;
-    background-color: #361001;
+    background-color: #F8F1F1;
     button{
         font-family: "Montserrat", sans-serif;
     }

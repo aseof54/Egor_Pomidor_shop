@@ -1,54 +1,133 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .header {
-  background-color: #862805;
+  background-color: #D62828;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   padding: 0 10px;
   height: 130px;
+  z-index: 10;
+  position: relative;
 }
 .header img {
   max-width: 100px;
   max-height: 100x;
   margin-right: 160px;
 }
+.header .menu {
+  gap: 30px;
+  display: flex;
+}
 .header .menu Button {
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  border-radius: 20px;
 }
 
 .explore {
   display: flex;
-  margin-bottom: 50px;
-  height: 810px;
+  height: 680px;
+  padding: 0 70px;
 }
 .explore .left-part {
-  color: #ffffff;
-  padding-left: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  max-width: 459px;
+  max-height: 347px;
+  margin-top: 151px;
+  margin-left: 70px;
 }
 .explore .left-part h1 {
+  font-weight: 700;
   font-size: 52px;
+  line-height: 150%;
+  display: flex;
+  color: #D62828;
 }
 .explore .left-part h3 {
+  font-weight: 600;
   font-size: 22px;
+  line-height: 150%;
+  color: #333333;
 }
 .explore .left-part button {
   font-size: 25px;
   border-radius: 20px;
 }
-.explore .right-part img {
-  width: 100%;
-  height: 100%;
+.explore .right-part {
+  margin-left: 200px;
+}
+.explore .right-part .circle {
+  position: relative;
+  top: -64px;
+  background-color: #CFEAD4;
+  width: 1012px;
+  height: 1012px;
+  border-radius: 100%;
+}
+
+.Catalog {
+  position: relative;
+  z-index: 1;
+  background-color: #F8F1F1;
+  margin-top: 160px;
+}
+.Catalog .arrivals {
+  width: 1405px;
+  height: 764px;
+  padding: 160px 257px;
+  display: flex;
+  flex-direction: column;
+}
+.Catalog .arrivals .Up-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: flex;
+  align-self: center;
+}
+.Catalog .arrivals .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.Catalog .arrivals .button {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.item {
+  width: 310px;
+  height: 539px;
+  display: flex;
+  flex-direction: column;
+}
+.item .img {
+  width: 310px;
+  height: 356px;
+  margin: 24px 0;
+}
+.item .texts {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+.item .texts .Price {
+  color: #707070;
 }
 
 .App, body {
   font-family: "Montserrat", sans-serif;
-  background-color: #361001;
+  background-color: #F8F1F1;
 }
 .App button, body button {
   font-family: "Montserrat", sans-serif;

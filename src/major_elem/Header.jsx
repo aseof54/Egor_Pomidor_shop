@@ -10,16 +10,14 @@ const Header = () => {
         <div className="menu">
             <Button
                 padding="13px 29px"
-                backgroundColor="#000000"
-                backgroundOpacity="0"
+                backgroundColor="#3A5A40"
                 textColor="#ffffff"
             >
             Купити
             </Button>
             <Button
                 padding="13px 29px"
-                backgroundColor="#000000"
-                backgroundOpacity="0"
+                backgroundColor="#3A5A40"
                 textColor="#ffffff"
             >
             Про нас
