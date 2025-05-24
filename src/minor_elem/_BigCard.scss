@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 353px;
+    height: 505px;
+    .image{
+        display: flex;
+        border-radius: 6px;
+        color: #F8F1F1;
+        .img{
+            width: 278px;
+            height: 400px;
+            padding: 40px 38px 0 38px;
+        }
+    }
+    .name{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 150%;
+        align-self: center;
+        display: flex;
+    }
+}

@@ -3,10 +3,12 @@
     height: 539px;
     display: flex;
     flex-direction: column;
-    .img{
+    .img {
         width: 310px;
         height: 356px;
-        margin: 24px 0;
+        padding: 24px 0;
+        background-color: #fad2d2;
+        border-radius: 6px;
     }
     .texts{
         display: flex;
@@ -15,13 +17,13 @@
         font-size: 16px;
         color: #333333;
         .Maintext{
-
+            font-weight: 600;
         }
         .Desc{
 
         }
         .Price{
-            color: #707070;
+            color: #808080;
         }
     }
 
