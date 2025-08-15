@@ -1,6 +1,8 @@
 import React from 'react'
 import BigCard from '../minor_elem/BigCard'
 import Ketchup from '../assets/images/Ketchup.png'
+import Pizza from '../assets/images/tomato pizza.png'
+import Tomato from '../assets/images/one tomato.png'
 
 const Collections = () => {
   return (
@@ -16,14 +18,14 @@ const Collections = () => {
             name='Кетчупи та пасти'
         ></BigCard>
         <BigCard
-            bgImage={Ketchup}
+            bgImage={Tomato}
             bgColor='#F8F1F1'
-            name='Кетчупи та пасти'
+            name='Свіжі помідори'
         ></BigCard>
         <BigCard
-            bgImage={Ketchup}
+            bgImage={Pizza}
             bgColor='#F8F1F1'
-            name='Кетчупи та пасти'
+            name='Готові страви'
         ></BigCard>
       </div>
     </section>
