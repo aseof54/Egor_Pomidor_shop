@@ -113,7 +113,8 @@
   width: 310px;
   height: 356px;
   padding: 24px 0;
-  background-color: #fad2d2;
+  background-color: rgba(250, 210, 210, 0);
+  border: 1px solid #808080;
   border-radius: 6px;
 }
 .item .texts {
